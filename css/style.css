@@ -1,0 +1,181 @@
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:,400,700,900&display=swap");
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px;
+}
+body {
+	line-height: 1;
+	overflow-x: hidden;
+}
+
+.wrapper {
+	min-height: 100%;
+}
+
+.main {
+	padding: 100px;
+}
+
+.block {
+	position: relative;
+}
+.block__item {
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	padding: 50px;
+}
+.block__item_color-blue {
+	background: rgb(5, 56, 165);
+	position: relative;
+	top: 20px;
+}
+.block__item_color-red {
+	background: rgb(224, 6, 6);
+	position: sticky;
+	top: 10px;
+	z-index: 2;
+}
+.block__item_color-green {
+	background: rgb(4, 187, 50);
+	position: relative;
+	bottom: 20px;
+	z-index: 1;
+}
+.block__item_color-purple {
+	background: purple;
+	position: absolute;
+	top: -25px;
+}
+
+.block__item_color-orange {
+	background: rgb(245, 160, 3);
+	position: fixed;
+	top: 10px;
+	left: 20px;
+	z-index: 3;
+}
+.block__item_color-brown {
+	background: rgb(150, 75, 0);
+	position: relative;
+	z-index: 1;
+}
+
+.block-home-work {
+	max-width: 1020px;
+	margin: 0 auto;
+}
+.who-we-are {
+	background: #5d62b5;
+	border-radius: 40px;
+	padding: 100px 87px 0px 87px;
+	position: relative;
+}
+
+.who-we-are::before {
+	content: "";
+	background: url("../img/who_we_are/stylize_circles.png") 0 0 no-repeat;
+	width: 201px;
+	height: 317px;
+	position: absolute;
+	z-index: 1;
+	top: -108px;
+	right: -76px;
+}
+
+.who-we-are__sub-title {
+	font-family: "Roboto", sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 24px;
+	letter-spacing: 2.5px;
+	text-transform: uppercase;
+	color: #f5f5f5;
+	margin: 0px 0px 33px 0px;
+	position: relative;
+	padding: 0px 0px 0px 36px;
+}
+
+.who-we-are__sub-title::before {
+	content: "";
+	background: url("../img/who_we_are/overline_mark.svg") 0 0 no-repeat;
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	top: -2px;
+	left: 0px;
+}
+.who-we-are__title {
+	font-family: "Roboto", sans-serif;
+	font-weight: 900;
+	font-size: 36px;
+	line-height: 42px;
+	color: #ffffff;
+	max-width: 583px;
+	margin: 0px 0px 36px 0px;
+}
+.who-we-are__text {
+	font-family: "Roboto", sans-serif;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.15px;
+	color: #f5f5f5;
+	margin: 0px 0px 54px 0px;
+}
+.who-we-are__image {
+	position: relative;
+	z-index: 1;
+	top: 120px;
+	border-radius: 40px;
+	box-shadow: 0px 8px 16px rgba(38, 38, 38, 0.24), 0px 16px 24px rgba(38, 38, 38, 0.2);
+}
+
+.who-we-are__img::before {
+	content: "";
+	background: url("../img/who_we_are/blob2.png") 0 0 no-repeat;
+	width: 665px;
+	height: 591px;
+	position: absolute;
+	bottom: -140px;
+	left: -15px;
+}
